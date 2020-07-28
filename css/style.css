@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+header{
+    
+padding: 20px 50px;
+    
+margin: 20px 0;
+}
+.container{
+	width: 95%;
+	overflow: hidden;
+	margin: auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+}
+.logo img{
+	width: 150px;
+}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 15px 50px;
+    display: block;
+    font-size: 20px;
+    color: #939393;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+}
+nav ul li a:hover{
+	
+background: black;
+	
+color: #fff;
+}
+.banner{
+    
+/* margin-top: 60px; */
+    
+padding: 40px;
+}
+.banner img{width: 100%;max-width: 100%;}
+.photodiary{
+    margin-top: 40px;
+    padding: 20px 0;
+}
+.photo-container{
+    width: 75%;
+    margin: auto;
+}
+h4{
+    text-transform: uppercase;
+    color: #D3D3CE;
+    margin-bottom: 30px;
+}
+h2{margin-bottom: 25px;color: #777776;font-size: 30px;}
+p{
+    color: #868686;
+    font-size: 20px;
+    margin-bottom: 60px;
+    line-height: 1.4
+}
+h5{
+    color: #C3C2BE;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.content{
+	overflow: hidden;
+	margin-top: 60px;
+}
+.content-left{
+	
+width: 50%;
+	
+float: left;
+	
+padding-right: 35px;
+}
+.content-right{
+	
+width: 50%;
+	
+float: left;
+	
+padding-left: 35px;
+}
+.content img{
+	width: 100%;
+	margin-bottom: 35px;
+}
+footer{
+    overflow: hidden;
+    padding: 40px 0;
+    margin-top: 50px;
+    background-color: #F0F0F0;
+}
+.footer-left{
+    width: 50%;
+    float: left;
+}
+.footer-left ul{}
+.footer-left ul li{
+    list-style: none;
+    float: left;
+}
+.footer-left ul li a{
+    text-decoration: none;
+    color: #000;
+    padding-right: 20px;
+}
+.footer-right{
+    width: 50%;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer-right ul{
+    text-align: right;
+}
+.footer-right ul li{
+    display: inline-block;
+    font-size: 22px;
+}
+.footer-right ul li a{
+    display: block;
+    padding: 0 8px;
+}
+.footer-right ul li a img{width: 20px;}
